@@ -1,0 +1,8 @@
+type Player {
+    id: ID!
+    firstName: String!
+    lastName: String!
+    birthday: String!
+    position: String!
+    number: Int!
+}

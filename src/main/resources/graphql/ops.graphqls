@@ -1,0 +1,15 @@
+# The Root Query for the application
+type Query {
+  recentPlayers(count: Int = 100, offset: Int = 0): [Player]!
+  playerByID(id: Int!): Player
+
+  recentTeams(count: Int = 100, offset: Int = 0): [Team]!
+  teamByID(id: Int!): Team
+}
+
+
+# The Root Mutation for the application
+type Mutation {
+  writePlayer(id: Int!, firstName: String!, lastName: String!, number: Int!, birthday: String!): Player!
+  writeTeam(id: Int!,city: String!,color: String!,name: String!): Team!
+}

@@ -1,0 +1,5 @@
+org/rygn/first_graphql/BlogController.class
+org/rygn/first_graphql/FirstGraphqlApplication.class
+org/rygn/first_graphql/PostDao.class
+org/rygn/first_graphql/Post.class
+org/rygn/first_graphql/GraphqlConfiguration.class

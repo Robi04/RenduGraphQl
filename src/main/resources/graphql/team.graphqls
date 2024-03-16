@@ -1,0 +1,6 @@
+type Team {
+    id: ID!
+    city: String!
+    color: String!
+    name: String!
+}
